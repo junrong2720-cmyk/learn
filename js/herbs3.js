@@ -1,0 +1,132 @@
+/* 中药 3/4:化痰止咳平喘、安神、平肝息风、开窍 */
+
+L.H({
+  id: 'huatan', zh: '化痰止咳平喘药', en: 'Phlegm-Transforming, Cough-Stopping and Wheeze-Calming Herbs',
+  d: `**能祛痰、消痰,或减轻、制止咳嗽喘息的药**。痰与咳喘关系密切,所以合为一章。
+中医的“痰”不只是咳出来的痰(有形之痰),还包括停留在体内的“无形之痰”:头晕、胸闷、肢体麻木、淋巴结肿大(瘰疬)、癫痫等都可能与痰有关。
+分三类:温化寒痰(痰白清稀)、清化热痰(痰黄稠)、止咳平喘。
+> 咳嗽兼咯血者,不宜用强烈刺激性的化痰药;麻疹初起有表邪的咳嗽,不宜单用止咳药,以免“闭门留寇”。`,
+  dEn: `**Herbs that clear phlegm, or calm cough and wheezing.** Phlegm and cough are closely linked, hence one chapter.
+“Phlegm” in Chinese medicine means not only what you cough up but also “invisible phlegm” lodged in the body — linked to dizziness, chest oppression, numbness, swollen glands and epilepsy.
+Three groups: warmly transforming cold phlegm (white, thin), coolly transforming hot phlegm (yellow, thick), and stopping cough and wheezing.
+> Avoid harsh expectorants if there is blood in the sputum; with an early cold, don’t just suppress the cough — that “locks the door with the thief inside”.`,
+  subs: [
+    { zh: '温化寒痰药', en: 'Warmly transforming cold phlegm', items: [
+["半夏","Bànxià","Pinellia rhizome","Pinelliae Rhizoma","辛;温","脾,胃,肺","燥湿化痰,降逆止呕,消痞散结","Dries damp and transforms phlegm; descends rebellious qi to stop vomiting; relieves focal distension and dissipates nodules","化湿痰、止呕吐的要药,咳嗽痰多、恶心呕吐、胃脘痞满、梅核气都用。炮制品有法半夏、姜半夏、清半夏。","The key herb for damp phlegm and vomiting — phlegmy cough, nausea, epigastric fullness, lump in the throat. Processed forms: fa, jiang and qing banxia.","有毒,内服须用炮制品;不宜与川乌、草乌、附子同用;阴虚燥咳、出血者慎用;孕妇慎用。","Toxic raw — use processed forms only; incompatible with aconite; caution with dry cough, bleeding and pregnancy.","毒2 孕"],
+["天南星","Tiānnánxīng","Arisaema rhizome","Arisaematis Rhizoma","苦,辛;温","肺,肝,脾","燥湿化痰,祛风止痉,散结消肿","Dries damp and transforms phlegm; dispels wind and stops spasm; reduces swelling","比半夏更燥烈,善祛经络之风痰,治中风痰壅、口眼歪斜、癫痫。用牛胆汁制成的叫胆南星,性转寒凉。","Harsher than pinellia — for wind-phlegm in the channels: stroke with phlegm, facial palsy, epilepsy. Processed with bile it becomes cool “dan nanxing”.","有毒,内服须炮制;孕妇慎用。","Toxic — processed only; caution in pregnancy.","毒2 孕"],
+["白附子","Báifùzǐ","Typhonium rhizome","Typhonii Rhizoma","辛;温","胃,肝","祛风痰,定惊搐,解毒散结,止痛","Dispels wind-phlegm; calms convulsions; resolves toxins; stops pain","善治头面部风痰病:口眼歪斜(面瘫)、偏头痛,代表方牵正散。","For wind-phlegm in the head and face — facial palsy and migraine, as in Correct the Face Powder.","有毒,生品内服宜慎;孕妇慎用。","Toxic; caution in pregnancy.","毒2 孕"],
+["芥子|白芥子","Jièzǐ","Mustard seed","Sinapis Semen","辛;温","肺","温肺豁痰利气,散结通络止痛","Warms the Lung, clears phlegm and frees qi; dissipates nodules and frees the collaterals","善治“皮里膜外”之痰:寒痰咳喘、关节阴疽肿痛。三伏贴常用它。","For phlegm “under the skin and outside the membranes” — cold phlegm cough and wheezing, deep cold abscesses. A staple of summer “sanfu” plasters.","久咳肺虚、阴虚火旺者忌用;外敷易起泡,皮肤过敏者慎用。","Avoid with chronic Lung deficiency or yin-deficiency fire; may blister the skin.","食"],
+["皂荚","Zàojiá","Gleditsia fruit","Gleditsiae Sinensis Fructus","辛,咸;温","肺,大肠","祛痰开窍,散结消肿","Dispels phlegm and opens the orifices; dissipates swelling","古代用来洗衣服的皂角。治顽痰阻塞的咳喘、中风痰厥口噤。","The ancient soap pod — for stubborn phlegm blocking breathing and stroke with phlegm.","有小毒;孕妇及咯血者忌用。","Slightly toxic; forbidden in pregnancy and with blood in sputum.","毒1 孕"],
+["旋覆花","Xuánfùhuā","Inula flower","Inulae Flos","苦,辛,咸;微温","肺,脾,胃,大肠","降气,消痰,行水,止呕","Descends qi; dispels phlegm; moves water; stops vomiting","“诸花皆升,旋覆独降”,治痰多咳喘和嗳气、呕吐、呃逆,代表方旋覆代赭汤。","“All flowers rise; only inula descends” — for phlegmy cough and wheezing, belching, vomiting and hiccups.","有绒毛,宜包煎;阴虚劳嗽、津伤燥咳者忌用。","Hairy — wrap when decocting; avoid with dry cough.",""],
+["白前","Báiqián","Cynanchum stauntonii rhizome","Cynanchi Stauntonii Rhizoma et Radix","辛,苦;微温","肺","降气,消痰,止咳","Descends qi; dispels phlegm; stops cough","性微温而不燥,治肺气壅实的咳嗽痰多,寒热都可配用。","Mildly warm, not drying — for congested coughs with phlegm of either type.","","",""]
+    ]},
+    { zh: '清化热痰药', en: 'Coolly transforming hot phlegm', items: [
+["川贝母|川贝","Chuānbèimǔ","Sichuan fritillaria bulb","Fritillariae Cirrhosae Bulbus","苦,甘;微寒","肺,心","清热润肺,化痰止咳,散结消痈","Clears heat and moistens the Lung; transforms phlegm and stops cough; dissipates nodules","润肺止咳力强,适合久咳、干咳少痰或痰中带血;民间“川贝炖雪梨”就是用它。","Moistens the Lung — for chronic or dry coughs with little phlegm; the folk remedy “fritillaria steamed in a pear”.","不宜与川乌、草乌、附子同用;脾胃虚寒及寒痰、湿痰者不宜。","Incompatible with aconite; not for cold or damp phlegm.",""],
+["浙贝母|浙贝","Zhèbèimǔ","Zhejiang fritillaria bulb","Fritillariae Thunbergii Bulbus","苦;寒","肺,心","清热化痰止咳,解毒散结消痈","Clears heat, transforms phlegm and stops cough; resolves toxins and dissipates nodules","比川贝更苦寒,清热散结力强,适合外感风热、痰火咳嗽,以及瘰疬、乳痈、肺痈。","More bitter-cold than Sichuan fritillaria — for wind-heat or phlegm-fire coughs, swollen glands, mastitis and Lung abscess.","不宜与川乌、草乌、附子同用。","Incompatible with aconite.",""],
+["瓜蒌|全瓜蒌","Guālóu","Trichosanthes fruit","Trichosanthis Fructus","甘,微苦;寒","肺,胃,大肠","清热涤痰,宽胸散结,润燥滑肠","Clears heat and flushes phlegm; opens the chest and dissipates binding; moistens the intestines","治痰热咳嗽、胸痹胸闷,兼能通便;瓜蒌皮偏宽胸,瓜蒌子偏润肠。","For hot phlegm cough and chest obstruction; also laxative. The peel opens the chest; the seed moistens the bowels.","脾虚便溏者忌用;不宜与川乌、草乌、附子同用。","Avoid with loose stools; incompatible with aconite.",""],
+["竹茹","Zhúrú","Bamboo shavings","Bambusae Caulis in Taenias","甘;微寒","肺,胃,心,胆","清热化痰,除烦,止呕","Clears heat and transforms phlegm; relieves irritability; stops vomiting","刮下的竹子中间层。治痰热心烦失眠、胃热呕吐、妊娠呕吐,代表方[[f:温胆汤]]。","The scraped middle layer of bamboo — for restless insomnia from hot phlegm, vomiting from Stomach heat and morning sickness, as in Warm the Gallbladder Decoction.","","",""],
+["竹沥","Zhúlì","Bamboo sap","Bambusae Succus","甘;寒","心,肺,肝","清热豁痰,定惊利窍","Clears heat and flushes phlegm; calms fright and opens the orifices","鲜竹经火烤流出的汁液,治痰热咳喘、中风痰迷。","Sap drawn from heated fresh bamboo — for hot phlegm cough and stroke with phlegm clouding the mind.","寒痰及便溏者忌用。","Avoid with cold phlegm or loose stools.",""],
+["天竺黄","Tiānzhúhuáng","Tabasheer","Bambusae Concretio Silicea","甘;寒","心,肝","清热豁痰,凉心定惊","Clears heat and flushes phlegm; cools the Heart and calms fright","竹子里的分泌物凝结而成,善治小儿痰热惊风。","A siliceous concretion from bamboo — for convulsions with hot phlegm in children.","","",""],
+["前胡","Qiánhú","Peucedanum root","Peucedani Radix","苦,辛;微寒","肺","降气化痰,散风清热","Descends qi and transforms phlegm; disperses wind-heat","既降气化痰又疏散风热,适合外感咳嗽痰多。","Both descends phlegm and disperses wind-heat — for colds with phlegmy cough.","","",""],
+["桔梗","Jiégěng","Platycodon root","Platycodonis Radix","苦,辛;平","肺","宣肺,利咽,祛痰,排脓","Opens the Lung; soothes the throat; dispels phlegm; expels pus","咳嗽痰多、咽痛音哑、肺痈吐脓都用;又能载药上行,被称为“舟楫之剂”。朝鲜族常做成桔梗咸菜。","For phlegmy cough, sore throat, hoarseness and Lung abscess; it “ferries” other herbs upward. Also a Korean pickled vegetable (doraji).","用量过大可致恶心呕吐;阴虚久咳、咯血者不宜。","Large doses cause nausea; not for chronic dry cough or coughing blood.","食"],
+["胖大海","Pàngdàhǎi","Boat-fruited sterculia seed","Sterculiae Lychnophorae Semen","甘;寒","肺,大肠","清热润肺,利咽开音,润肠通便","Clears heat and moistens the Lung; soothes the throat and restores the voice; moistens the intestines","泡水后会膨大数倍,教师常用来护嗓,治肺热声哑、咽痛。","Swells many times in hot water — popular with teachers for hoarseness and sore throat from heat.","性寒,脾胃虚寒、便溏者不宜长期泡饮。","Cold — not for daily long-term use with weak digestion.","食"],
+["海藻","Hǎizǎo","Sargassum","Sargassum","苦,咸;寒","肝,胃,肾","消痰软坚散结,利水消肿","Dispels phlegm, softens hardness and dissipates nodules; promotes urination","咸能软坚,治瘿瘤(甲状腺肿)、瘰疬、睾丸肿痛。","Salty softens hardness — for goitre, swollen glands and testicular swelling.","不宜与甘草同用。","Incompatible with licorice.",""],
+["昆布","Kūnbù","Kelp","Laminariae Thallus","咸;寒","肝,胃,肾","消痰软坚散结,利水消肿","Dispels phlegm, softens hardness and dissipates nodules; promotes urination","就是海带。与海藻相须为用,治瘿瘤、瘰疬。","Kelp — paired with sargassum for goitre and swollen glands.","甲亢患者慎用(含碘)。","Contains iodine — caution in hyperthyroidism.","食"],
+["黄药子","Huángyàozǐ","Air potato tuber","Dioscoreae Bulbiferae Rhizoma","苦;寒","肺,肝","化痰散结消瘿,清热解毒","Transforms phlegm and dissipates goitre; clears toxins","治瘿瘤、疮疡、咽喉肿痛。","For goitre, sores and sore throat.","有毒,可致肝损害,不宜多服久服。","Toxic — can damage the liver.","毒2"],
+["海蛤壳","Hǎigéqiào","Clam shell","Meretricis Concha Cyclinae Concha","苦,咸;寒","肺,肾,胃","清热化痰,软坚散结,制酸止痛","Clears heat and transforms phlegm; softens hardness; neutralises acid","治痰热咳喘、瘰疬、胃痛泛酸。","For hot phlegm cough, swollen glands and acid reflux.","宜先煎。","Boil first.",""],
+["瓦楞子","Wǎléngzǐ","Ark shell","Arcae Concha","咸;平","肺,胃,肝","消痰化瘀,软坚散结,制酸止痛","Dispels phlegm and stasis; softens hardness; neutralises acid","煅用制酸止痛效果好,治胃酸过多、胃痛。","Calcined, it is good for acid reflux and stomach pain.","宜先煎。","Boil first.",""],
+["礞石|青礞石","Méngshí","Chlorite schist","Chloriti Lapis","甘,咸;平","肺,心,肝","坠痰下气,平肝镇惊","Sends phlegm down; calms the Liver and settles fright","治顽痰胶结的咳喘、癫狂惊痫。","For stubborn sticky phlegm, mania and epilepsy.","非痰热内结之实证不宜;孕妇慎用。","Only for excess hot phlegm; caution in pregnancy.","孕"]
+    ]},
+    { zh: '止咳平喘药', en: 'Stopping cough and calming wheezing', items: [
+["苦杏仁|杏仁","Kǔxìngrén","Bitter apricot kernel","Armeniacae Semen Amarum","苦;微温","肺,大肠","降气止咳平喘,润肠通便","Descends qi to stop cough and wheezing; moistens the intestines","止咳平喘的要药,各种咳喘都可配伍;富含油脂,兼能通便。","A key herb for any cough or wheezing; oily, so also laxative.","有小毒,用量不宜过大,婴儿慎用(含苦杏仁苷,过量可致氰化物中毒)。","Slightly toxic — contains amygdalin; overdose can cause cyanide poisoning; caution in infants.","毒1 食"],
+["紫苏子|苏子","Zǐsūzǐ","Perilla seed","Perillae Fructus","辛;温","肺","降气化痰,止咳平喘,润肠通便","Descends qi and transforms phlegm; stops cough and wheezing; moistens the intestines","治痰壅气逆的咳喘,兼通便,代表方苏子降气汤、三子养亲汤。","For wheezing with copious phlegm; also laxative.","脾虚便溏者慎用。","Caution with loose stools.","食"],
+["百部","Bǎibù","Stemona root","Stemonae Radix","甘,苦;微温","肺","润肺下气止咳,杀虫灭虱","Moistens the Lung and descends qi to stop cough; kills lice and parasites","新久咳嗽都可用,尤善治久咳、百日咳、肺痨咳嗽;外用灭虱。","For new or chronic coughs, especially whooping cough and TB cough; externally kills lice.","","",""],
+["紫菀","Zǐwǎn","Aster root","Asteris Radix et Rhizoma","辛,苦;温","肺","润肺下气,化痰止咳","Moistens the Lung and descends qi; transforms phlegm and stops cough","温而不燥,各种咳嗽都适用,常与款冬花同用。","Warm but not drying — for all kinds of cough, often with coltsfoot.","","",""],
+["款冬花","Kuǎndōnghuā","Coltsfoot flower","Farfarae Flos","辛,微苦;温","肺","润肺下气,止咳化痰","Moistens the Lung and descends qi; stops cough and transforms phlegm","冬天在冰雪中开花,故名。治各种咳嗽。","It blooms in winter snow, hence the name — for all kinds of cough.","","",""],
+["枇杷叶","Pípayè","Loquat leaf","Eriobotryae Folium","苦;微寒","肺,胃","清肺止咳,降逆止呕","Clears the Lung and stops cough; descends rebellious qi to stop vomiting","治肺热咳嗽、胃热呕吐,川贝枇杷膏里就有它。","For hot coughs and vomiting from Stomach heat — an ingredient of fritillaria-loquat syrup.","有绒毛,宜包煎或刷去毛。","Remove or wrap the hairs.",""],
+["桑白皮","Sāngbáipí","Mulberry root bark","Mori Cortex","甘;寒","肺","泻肺平喘,利水消肿","Drains the Lung and calms wheezing; promotes urination","治肺热咳喘、面目浮肿。","For hot cough with wheezing and puffy face.","肺寒咳喘者慎用。","Caution with cold-type cough.",""],
+["葶苈子","Tínglìzǐ","Descurainia seed","Descurainiae Semen Lepidii Semen","辛,苦;大寒","肺,膀胱","泻肺平喘,行水消肿","Drains the Lung and calms wheezing; moves water and reduces swelling","泻肺力强,治痰涎壅盛、喘息不得平卧,以及胸腔积液、水肿。","Strongly drains the Lung — for severe phlegmy wheezing preventing lying flat, pleural fluid and oedema.","肺虚喘咳、脾虚肿满者忌用。","Avoid with deficiency wheezing.",""],
+["白果","Báiguǒ","Ginkgo nut","Ginkgo Semen","甘,苦,涩;平","肺,肾","敛肺定喘,止带缩尿","Astringes the Lung to calm wheezing; stops discharge and reduces urination","银杏的种子,治久咳虚喘、白带多、尿频遗尿。","The ginkgo seed — for chronic deficiency wheezing, leucorrhoea and frequent urination.","有毒,生食或多食可致中毒(尤其小儿),须煮熟并控制数量。","Toxic raw or in quantity, especially for children — cook well and eat few.","毒2 食"],
+["洋金花","Yángjīnhuā","Datura flower","Daturae Flos","辛;温","肺,肝","平喘止咳,解痉定痛","Calms wheezing and stops cough; relieves spasm and pain","曼陀罗花,含东莨菪碱,古代用于麻醉(相传华佗“麻沸散”)。","Datura, containing scopolamine — once used for anaesthesia (said to be in Hua Tuo’s legendary “mafeisan”).","有毒,用量极小;青光眼、高血压、心动过速者及孕妇禁用。","Toxic — tiny doses; forbidden with glaucoma, hypertension, tachycardia and pregnancy.","毒2 孕"],
+["罗汉果","Luóhànguǒ","Monk fruit","Siraitiae Fructus","甘;凉","肺,大肠","清热润肺,利咽开音,滑肠通便","Clears heat and moistens the Lung; soothes the throat; moistens the intestines","比蔗糖甜很多,常泡水或煲汤,治肺热燥咳、咽痛失音、肠燥便秘。","Far sweeter than sugar — brewed or added to soups for dry hot cough, sore throat and dry constipation.","","","食"]
+    ]}
+  ]
+});
+
+L.H({
+  id: 'anshen', zh: '安神药', en: 'Spirit-Calming Herbs',
+  d: `**能安定神志、治疗心神不宁的药**。用于心悸、失眠、多梦、健忘、惊风、癫狂等。
+分两类:**重镇安神**(多为矿石、化石、介壳,质重沉降,治实证:心神不安、惊悸、狂躁)和**养心安神**(多为植物种子,甘润滋养,治虚证:心血不足的失眠多梦、心悸健忘)。
+> 矿石类药久服易伤胃,宜中病即止;朱砂含汞,有毒,不可久服多服。失眠的原因很多,长期失眠应就医找原因。`,
+  dEn: `**Herbs that calm the mind.** For palpitations, insomnia, vivid dreams, forgetfulness, convulsions and mania.
+Two groups: **heavy settling** (minerals, fossils, shells — heavy and descending, for excess-type agitation, fright and mania) and **nourishing the Heart** (mostly seeds — sweet and nourishing, for deficiency-type insomnia, dreams, palpitations and poor memory).
+> Minerals are hard on the stomach — stop once effective. Cinnabar contains mercury and is toxic. Chronic insomnia has many causes — see a doctor.`,
+  subs: [
+    { zh: '重镇安神药', en: 'Heavy settling', items: [
+["朱砂","Zhūshā","Cinnabar","Cinnabaris","甘;微寒","心","清心镇惊,安神,明目,解毒","Clears the Heart and settles fright; calms the mind; brightens the eyes; resolves toxins","古代重要的镇静药和朱红颜料,主要成分为硫化汞。","An important historical sedative and the vermilion pigment — mercuric sulphide.","有毒,含汞,不宜大量服用,也不宜少量久服;忌火煅(会析出水银);孕妇及肝肾功能不全者禁用。现代临床已很少使用。","Toxic (mercury) — never in large amounts or long term; never heated; forbidden in pregnancy and with liver or kidney disease. Rarely used today.","毒2 孕"],
+["磁石","Císhí","Magnetite","Magnetitum","咸;寒","肝,心,肾","镇惊安神,平肝潜阳,聪耳明目,纳气平喘","Settles fright and calms the mind; anchors Liver yang; benefits the ears and eyes; helps grasp qi","就是磁铁矿。治心神不宁、惊悸失眠,以及肝阳上亢的头晕、肾虚耳鸣耳聋。","Lodestone — for agitation and insomnia, dizziness from rising Liver yang, and tinnitus from Kidney deficiency.","宜打碎先煎;不宜久服;脾胃虚弱者慎用。","Crush and boil first; not long term.",""],
+["龙骨","Lónggǔ","Dragon bone (fossil bone)","Fossilia Ossis Mastodi","甘,涩;平","心,肝,肾","镇惊安神,平肝潜阳,收敛固涩","Settles fright and calms the mind; anchors Liver yang; astringes and secures","古代大型哺乳动物的骨骼化石,甲骨文最初就是在“龙骨”中发现的。治心悸失眠、头晕,以及自汗盗汗、遗精、崩漏。","Fossilised bones of ancient mammals — oracle-bone script was first discovered on “dragon bones” bought as medicine. For palpitations, insomnia, dizziness, and sweating or leakage.","湿热积滞者不宜。宜先煎。","Not with damp-heat. Boil first.",""],
+["琥珀","Hǔpò","Amber","Succinum","甘;平","心,肝,膀胱","镇惊安神,活血散瘀,利尿通淋","Settles fright; moves blood and disperses stasis; frees painful urination","松脂化石,治心神不宁、惊风癫痫,以及血瘀经闭、尿血。","Fossilised resin — for agitation, convulsions, amenorrhoea from stasis and blood in urine.","不入煎剂,多研末冲服。","Not decocted — taken as powder.",""]
+    ]},
+    { zh: '养心安神药', en: 'Nourishing the Heart to calm the mind', items: [
+["酸枣仁","Suānzǎorén","Sour jujube seed","Ziziphi Spinosae Semen","甘,酸;平","肝,胆,心","养心补肝,宁心安神,敛汗,生津","Nourishes the Heart and Liver; calms the mind; stops sweating; generates fluids","养心安神的要药,治心肝血虚的失眠多梦、心悸,代表方[[f:酸枣仁汤]]。","The key herb for insomnia and palpitations from Heart and Liver blood deficiency, as in Sour Jujube Decoction.","","","食"],
+["柏子仁","Bǎizǐrén","Arborvitae seed","Platycladi Semen","甘;平","心,肾,大肠","养心安神,润肠通便,止汗","Nourishes the Heart and calms the mind; moistens the intestines; stops sweating","治血虚心悸失眠,兼治肠燥便秘。","For palpitations and insomnia from blood deficiency, and dry constipation.","便溏及痰多者慎用。","Caution with loose stools or phlegm.",""],
+["灵芝","Língzhī","Reishi mushroom","Ganoderma","甘;平","心,肺,肝,肾","补气安神,止咳平喘","Tonifies qi and calms the mind; stops cough and wheezing","古称“仙草”,治心神不宁、失眠心悸、虚劳咳喘、体虚乏力。","Once called the “immortals’ herb” — for unsettled mind, insomnia, chronic cough and fatigue.","","","食"],
+["首乌藤|夜交藤","Shǒuwūténg","Fleeceflower vine","Polygoni Multiflori Caulis","甘;平","心,肝","养血安神,祛风通络","Nourishes blood and calms the mind; dispels wind and frees the collaterals","何首乌的藤茎,治阴血亏虚的失眠多梦,以及血虚身痛、皮肤瘙痒。","The vine of the fleeceflower — for insomnia from blood deficiency, body aches and itchy skin.","","",""],
+["合欢皮","Héhuānpí","Albizia bark","Albiziae Cortex","甘;平","心,肝,肺","解郁安神,活血消肿","Relieves constraint and calms the mind; moves blood and reduces swelling","名字寓意“合家欢乐”,治情绪抑郁、烦躁失眠。合欢花功效相似。","Its name means “happy together” — for low mood, irritability and insomnia. Its flowers act similarly.","孕妇慎用。","Caution in pregnancy.","孕"],
+["远志","Yuǎnzhì","Polygala root","Polygalae Radix","苦,辛;温","心,肾,肺","安神益智,交通心肾,祛痰,消肿","Calms the mind and sharpens wits; connects Heart and Kidney; dispels phlegm; reduces swelling","治失眠多梦、健忘惊悸、神志恍惚,以及咳嗽痰多。","For insomnia, forgetfulness, palpitations and confusion, and phlegmy cough.","胃溃疡、胃炎患者慎用(对胃有刺激)。","Irritates the stomach — caution with gastritis or ulcers.",""]
+    ]}
+  ]
+});
+
+L.H({
+  id: 'pinggan', zh: '平肝息风药', en: 'Liver-Pacifying Wind-Extinguishing Herbs',
+  d: `**能平肝潜阳、息风止痉的药**。
+- **肝阳上亢**:头晕目眩、头胀痛、面红目赤、急躁易怒、耳鸣,类似部分高血压表现;
+- **肝风内动**:眩晕欲仆、抽搐、震颤、口眼歪斜,甚至中风、高热惊厥、癫痫、破伤风。
+分两类:平抑肝阳药(多为介壳、矿石)和息风止痉药(多为动物药)。
+> 介壳矿石类宜打碎先煎;虫类药多有毒,用量不宜过大。中风、抽搐属急症,应立即就医。`,
+  dEn: `**Herbs that subdue rising Liver yang and extinguish internal wind.**
+- **Rising Liver yang**: dizziness, pounding headache, red face and eyes, irritability, tinnitus — overlapping with some hypertension.
+- **Internal Liver wind**: severe vertigo, convulsions, tremors, facial palsy — up to stroke, febrile convulsions, epilepsy and tetanus.
+Two groups: herbs that pacify Liver yang (mostly shells and minerals) and herbs that extinguish wind and stop spasms (mostly animal products).
+> Shells and minerals are crushed and boiled first; insect and reptile products are often toxic. Stroke and convulsions are emergencies.`,
+  subs: [
+    { zh: '平抑肝阳药', en: 'Pacifying Liver yang', items: [
+["石决明","Shíjuémíng","Abalone shell","Haliotidis Concha","咸;寒","肝","平肝潜阳,清肝明目","Subdues Liver yang; clears the Liver and brightens the eyes","鲍鱼的壳,治肝阳上亢的头痛眩晕,以及目赤翳障、视物昏花。","Abalone shell — for headache and dizziness from rising Liver yang, red eyes and blurry vision.","宜打碎先煎;脾胃虚寒者慎用。","Crush and boil first.",""],
+["珍珠母","Zhēnzhūmǔ","Mother-of-pearl","Margaritifera Concha","咸;寒","肝,心","平肝潜阳,安神定惊,明目退翳","Subdues Liver yang; calms the mind; brightens the eyes","治头痛眩晕、心悸失眠、目赤翳障。","For headache, dizziness, palpitations, insomnia and red eyes.","宜打碎先煎。","Crush and boil first.",""],
+["牡蛎","Mǔlì","Oyster shell","Ostreae Concha","咸;微寒","肝,胆,肾","重镇安神,潜阳补阴,软坚散结;煅用收敛固涩,制酸止痛","Settles and calms; anchors yang and supplements yin; softens hardness; calcined, astringes and neutralises acid","一药多用:安神、平肝、散结(瘰疬、甲状腺结节),煅用止汗、止遗、制酸。","Many uses — calms the mind, anchors yang, softens lumps (glands, thyroid nodules); calcined it stops sweating, leakage and acid.","宜打碎先煎。","Crush and boil first.","食"],
+["代赭石|赭石","Dàizhěshí","Hematite","Haematitum","苦;寒","肝,心,肺,胃","平肝潜阳,重镇降逆,凉血止血","Subdues Liver yang; heavily descends rebellious qi; cools blood and stops bleeding","质重沉降,治肝阳上亢的眩晕,以及嗳气、呃逆、呕吐、气喘等气逆证。","Heavy and descending — for dizziness from rising yang and rebellious qi: belching, hiccups, vomiting, wheezing.","孕妇慎用;含微量砷,不宜长期服用。宜先煎。","Caution in pregnancy; traces of arsenic — not long term. Boil first.","孕"],
+["刺蒺藜|蒺藜","Cìjílí","Tribulus fruit","Tribuli Fructus","辛,苦;微温","肝","平肝解郁,活血祛风,明目,止痒","Pacifies the Liver and relieves constraint; moves blood and dispels wind; brightens the eyes; stops itching","治肝阳头痛眩晕、胸胁胀痛、目赤翳障、风疹瘙痒。","For headache from rising yang, flank distension, red eyes and itchy hives.","孕妇慎用。","Caution in pregnancy.","孕"],
+["罗布麻叶","Luóbùmáyè","Apocynum leaf","Apocyni Veneti Folium","甘,苦;凉","肝","平肝安神,清热利水","Pacifies the Liver and calms the mind; clears heat and promotes urination","常泡茶用于肝阳上亢的头晕、心悸失眠,现代用于辅助降压。","Brewed as tea for dizziness, palpitations and insomnia from rising yang; used to help lower blood pressure.","不宜过量或长期服用。","Not in excess or long term.",""]
+    ]},
+    { zh: '息风止痉药', en: 'Extinguishing wind and stopping spasms', items: [
+["羚羊角","Língyángjiǎo","Saiga antelope horn","Saigae Tataricae Cornu","咸;寒","肝,心","平肝息风,清肝明目,散血解毒","Pacifies the Liver and extinguishes wind; clears the Liver and eyes; disperses blood and resolves toxins","清热息风力强,治高热惊厥抽搐、癫痫、头痛眩晕,代表方[[f:羚角钩藤汤]]。","Strongly clears heat and wind — for febrile convulsions, epilepsy, headache and dizziness, as in Antelope Horn and Uncaria Decoction.","赛加羚羊为国家一级保护动物,资源极其稀缺,临床多以山羊角等代用;脾虚慢惊者忌用。","The saiga antelope is a first-class protected species; goat horn is commonly substituted.","保"],
+["牛黄","Niúhuáng","Cattle gallstone (bezoar)","Bovis Calculus","甘;凉","心,肝","清心,豁痰,开窍,凉肝,息风,解毒","Clears the Heart; flushes phlegm; opens the orifices; cools the Liver; extinguishes wind; resolves toxins","牛的胆结石,极其名贵,是[[f:安宫牛黄丸]]的君药,治热病神昏、中风痰迷、惊痫抽搐、咽喉肿痛。","A cattle gallstone, very precious — sovereign of Calm the Palace Pill with Cattle Gallstone, for delirium in fevers, stroke, convulsions and sore throat.","天然牛黄稀缺,现多用人工牛黄或体外培育牛黄;孕妇慎用。","Natural bezoar is scarce — artificial or cultured versions are used; caution in pregnancy.","保 孕"],
+["珍珠","Zhēnzhū","Pearl","Margarita","甘,咸;寒","心,肝","安神定惊,明目消翳,解毒生肌,润肤祛斑","Calms the mind and settles fright; clears the eyes; heals wounds; moisturises skin and fades spots","治惊悸失眠、惊风癫痫、目赤翳障,外用治口疮、疮疡不敛;珍珠粉也用于美容。","For palpitations, insomnia, convulsions and eye film; applied to mouth ulcers and sores; pearl powder is used in cosmetics.","","",""],
+["钩藤","Gōuténg","Uncaria stem with hooks","Uncariae Ramulus cum Uncis","甘;凉","肝,心包","息风定惊,清热平肝","Extinguishes wind and settles fright; clears heat and pacifies the Liver","带钩的藤茎,治头痛眩晕、小儿惊风、高热抽搐,代表方[[f:天麻钩藤饮]]。","Hooked stems — for headache, dizziness and childhood convulsions, as in Gastrodia and Uncaria Drink.","入汤剂宜后下(久煎降低疗效)。","Add late — long boiling weakens it.",""],
+["天麻","Tiānmá","Gastrodia tuber","Gastrodiae Rhizoma","甘;平","肝","息风止痉,平抑肝阳,祛风通络","Extinguishes wind and stops spasm; pacifies Liver yang; dispels wind and frees the collaterals","“治风之神药”,药性平和,寒热虚实的眩晕、头痛、抽搐都可用;天麻炖鸡是云贵名菜。","“The miraculous herb for wind” — gentle, for any kind of dizziness, headache or spasm; gastrodia chicken soup is a Yunnan-Guizhou dish.","","","食"],
+["地龙","Dìlóng","Earthworm","Pheretima","咸;寒","肝,脾,膀胱","清热定惊,通络,平喘,利尿","Clears heat and settles fright; frees the collaterals; calms wheezing; promotes urination","就是蚯蚓。治高热惊厥、中风后半身不遂(补阳还五汤)、肺热哮喘、小便不利。","The earthworm — for febrile convulsions, post-stroke paralysis (as in Tonify Yang to Restore Five-Tenths), hot asthma and difficult urination.","脾胃虚寒者不宜。","Not with a cold weak stomach.",""],
+["全蝎","Quánxiē","Scorpion","Scorpio","辛;平","肝","息风镇痉,通络止痛,攻毒散结","Extinguishes wind and stops spasm; frees the collaterals and stops pain; attacks toxins","息风止痉要药,治各种抽搐、破伤风、面瘫、顽固性头痛和风湿顽痹。","A key herb for spasms of all kinds — tetanus, facial palsy, stubborn headache and rheumatism.","有毒,用量不宜过大;孕妇禁用;血虚生风者慎用。","Toxic; forbidden in pregnancy.","毒2 孕"],
+["蜈蚣","Wúgōng","Centipede","Scolopendra","辛;温","肝","息风镇痉,通络止痛,攻毒散结","Extinguishes wind and stops spasm; frees the collaterals and stops pain; attacks toxins","常与全蝎相须为用,力量更猛。","Often paired with scorpion, and even stronger.","有毒,用量不宜过大;孕妇禁用。","Toxic; forbidden in pregnancy.","毒2 孕"],
+["僵蚕","Jiāngcán","Silkworm (stiff)","Bombyx Batryticatus","咸,辛;平","肝,肺,胃","息风止痉,祛风止痛,化痰散结","Extinguishes wind and stops spasm; dispels wind and stops pain; transforms phlegm","感染白僵菌而僵死的蚕。治惊风抽搐、面瘫、风热头痛、咽痛,以及瘰疬痰核。","A silkworm killed by a white fungus — for convulsions, facial palsy, wind-heat headache, sore throat and swollen glands.","","",""]
+    ]}
+  ]
+});
+
+L.H({
+  id: 'kaiqiao', zh: '开窍药', en: 'Orifice-Opening Herbs',
+  d: `**气味芳香、能通关开窍、苏醒神志的药**,又叫“芳香开窍药”。用于神志昏迷的“闭证”:热病高热神昏、中风、惊风、癫痫、中暑昏厥等。
+> 开窍药是急救用药,只宜暂用,不可久服;多入丸散,不宜入煎剂;孕妇慎用。大汗淋漓、四肢冰冷的“脱证”不能用开窍药,应回阳固脱。**昏迷是急症,必须立即送医**。`,
+  dEn: `**Strongly aromatic herbs that open the orifices and revive consciousness.** For the “closed” type of coma — high fever with delirium, stroke, convulsions, epilepsy and heatstroke.
+> Emergency herbs for short-term use only, usually in pills or powders rather than decoctions; caution in pregnancy. Not for the “collapse” type (dripping sweat, icy limbs), which needs yang rescued instead. **Loss of consciousness is an emergency — call an ambulance.**`,
+  subs: [
+    { zh: '', en: '', items: [
+["麝香","Shèxiāng","Musk","Moschus","辛;温","心,脾","开窍醒神,活血通经,消肿止痛","Opens the orifices and revives the spirit; moves blood and frees the channels; reduces swelling and pain","开窍醒神第一要药,用于各种闭证神昏;又能活血,治心腹暴痛、跌打损伤。","The foremost herb for reviving consciousness; also moves blood for sudden chest or abdominal pain and injuries.","孕妇禁用。麝为国家一级保护动物,现多用人工麝香。","Forbidden in pregnancy. Musk deer are protected; artificial musk is now standard.","保 孕"],
+["冰片","Bīngpiàn","Borneol","Borneolum","辛,苦;微寒","心,脾,肺","开窍醒神,清热止痛","Opens the orifices and revives the spirit; clears heat and stops pain","开窍药中的凉性药,常与麝香同用;外用治咽喉肿痛、口疮、目赤,很多喉片、清凉油里都有。","A cool orifice opener, often with musk; applied for sore throat, mouth ulcers and red eyes — in many throat lozenges and balms.","孕妇慎用。","Caution in pregnancy.","孕"],
+["苏合香","Sūhéxiāng","Storax","Styrax","辛;温","心,脾","开窍,辟秽,止痛","Opens the orifices; dispels foulness; stops pain","治寒闭神昏(面青、身凉、苔白)和胸腹冷痛,代表方苏合香丸。","For cold-type coma (pale face, cold body) and cold chest pain, as in Storax Pill.","阴虚火旺者慎用;孕妇慎用。","Caution with yin-deficiency fire and in pregnancy.","孕"],
+["石菖蒲","Shíchāngpú","Acorus rhizome","Acori Tatarinowii Rhizoma","辛,苦;温","心,胃","开窍豁痰,醒神益智,化湿开胃","Opens the orifices and flushes phlegm; revives the spirit and sharpens the mind; transforms damp and opens the appetite","作用较缓和,治痰湿蒙蔽的神志不清、健忘失眠、耳鸣耳聋,以及湿阻中焦的脘闷不饥。端午节挂的菖蒲就是它的近亲。","Gentler — for clouded mind from phlegm-damp, forgetfulness, insomnia, tinnitus, and damp fullness. A cousin of the calamus hung at Dragon Boat Festival.","阴虚阳亢、烦躁汗多者慎用。","Caution with yin deficiency and heavy sweating.",""],
+["安息香","Ānxīxiāng","Benzoin","Benzoinum","辛,苦;平","心,脾","开窍醒神,行气活血,止痛","Opens the orifices; moves qi and blood; stops pain","治中风痰厥、心腹疼痛。","For stroke with phlegm and chest or abdominal pain.","阴虚火旺者慎用。","Caution with yin-deficiency fire.",""]
+    ]}
+  ]
+});
