@@ -9,6 +9,8 @@
   var S = (function () {
     var s;
     try { s = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { s = {}; }
+    var lq = /[?&]lang=(zh|en|bi)\b/.exec(location.search);
+    if (lq) s.lang = lq[1];
     if (!s.lang) s.lang = 'zh';
     s.star = s.star || []; s.wrong = s.wrong || {}; s.read = s.read || {}; s.seen = s.seen || {};
     return s;
@@ -339,7 +341,7 @@
       pick.map(function (x) { var n = nm(x); return '<a href="#/h/i/' + x.id + '"><b>' + n.main + '</b><span>' + (S.lang === 'zh' ? x.en : n.sub) + '</span></a>'; }).join('') + '</div></section>' +
 
       '<section><div class="sec-h"><h2>' + th('more') + '</h2></div><div class="quick qsites">' +
-      '<a href="https://junrong2720-cmyk.github.io/acu/" target="_blank" rel="noopener"><b>' + th('acuLink') + '</b><span>' + t('acuLinkD') + '</span></a>' +
+      '<a href="https://junrong2720-cmyk.github.io/acu/' + (S.lang === 'zh' ? '' : '?lang=' + S.lang) + '" target="_blank" rel="noopener"><b>' + th('acuLink') + '</b><span>' + t('acuLinkD') + '</span></a>' +
       '<a href="https://junrong2720-cmyk.github.io/tcmjr/' + (S.lang === 'en' ? 'en.html' : '') + '" target="_blank" rel="noopener"><b>' + th('tizhiLink') + '</b><span>' + t('tizhiLinkD') + '</span></a></div></section>';
   }
 

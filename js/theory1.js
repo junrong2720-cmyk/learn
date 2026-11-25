@@ -510,7 +510,7 @@ L.T({
 - **Eight extraordinary vessels**: Governor (Du), Conception (Ren), Penetrating, Girdle, and the Yin/Yang Link and Yin/Yang Heel vessels. The **Governor Vessel** commands all yang meridians; the **Conception Vessel** all yin meridians.
 - Plus fifteen collaterals, twelve divergent channels, twelve sinew channels and twelve cutaneous regions.
 
-> To study the points in detail, see the sister site [[https://junrong2720-cmyk.github.io/acu/|Acupoint Library]]: 362 points of the 14 meridians with body maps and quizzes.`],
+> To study the points in detail, see the sister site [[https://junrong2720-cmyk.github.io/acu/?lang=en|Acupoint Library]]: 362 points of the 14 meridians with body maps and quizzes.`],
     ['十二经脉的规律', 'Patterns of the twelve meridians',
 `- **走向**:手三阴从胸走手,手三阳从手走头,足三阳从头走足,足三阴从足走腹胸。
 - **分布**:阳经在四肢外侧和背部,阴经在四肢内侧和胸腹部。
